@@ -4,6 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+var mongodb = require('./mongodb.js');
+
 var homeUserRouter = require('./components/user/home');
 var productUserRouter = require('./components/user/product');
 var categoriesUserRouter = require('./components/user/categories');
